@@ -1,0 +1,51 @@
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 600px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 50vh;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+}
+
+.swipe {
+  position: absolute;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+.card h3 {
+  position: absolute;
+  display: block;
+  margin-left: 10px;
+  color: #fff;
+}
+.card p {
+  position: absolute;
+  bottom: 1vh;
+  margin: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+.card h2 {
+  position: relative;
+  text-align: right;
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #fff; /* GREEN #519c47*/
+  text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 1px #000;
+  -webkit-text-shadow: 0 0 1px #000;
+}
